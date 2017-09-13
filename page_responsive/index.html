@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header class="page-header">
+            <section class="page-header-title">
+                <div class="page-header-title-contain">
+                    <h1 class="page-title">Company name</h1>
+                </div>
+            </section>
+            <nav class="page-header-menu">
+                <div class="page-header-menu-contain">
+                    <div class="page-header-menu-list">
+                        <span class="menu-media-query" onclick="showMenu()"><i class="material-icons">&#xE5D2;</i></span>
+                        <nav class="menu-small">
+                            <a class="item-menu-small" href="#">Solicitar servicio</a>
+                            <a class="item-menu-small" href="#">Tarifas</a>
+                            <a class="item-menu-small" href="#" onclick="showSubMenu()"><i class="material-icons md-48">&#xE8A6;</i> Hola Alejandro</a>
+                            <section class="menu-toggle">
+                                <a href"#" class="menu-toggle-item">Editar perfil</a><hr class="div-menu">
+                                <a href"#" class="menu-toggle-item">Historial</a><hr class="div-menu">
+                                <a href"#" class="menu-toggle-item">Credito corporativo</a><hr class="div-menu">
+                                <a href"#" class="menu-toggle-item">Invitar a un amigo</a><hr class="div-menu">
+                                <a href"#" class="menu-toggle-item">Inscribe tu empresa</a><hr class="div-menu">
+                                <a href"#" class="menu-toggle-item">Contactar administrador</a><hr class="div-menu">
+                                <a href"#" class="menu-toggle-item">Cerrar sesión</a>
+                            </section>
+                        </nav>
+                        <a class="item-menu" href="#">Solicitar servicio</a>
+                        <a class="item-menu" href="#">Tarifas</a>
+                        <a class="item-menu" href="#" onclick="showSubMenu()"><i class="material-icons md-48">&#xE8A6;</i> Hola Alejandro</a>
+                        <section class="menu-toggle">
+                            <a href"#" class="menu-toggle-item">Editar perfil</a><hr class="div-menu">
+                            <a href"#" class="menu-toggle-item">Historial</a><hr class="div-menu">
+                            <a href"#" class="menu-toggle-item">Credito corporativo</a><hr class="div-menu">
+                            <a href"#" class="menu-toggle-item">Invitar a un amigo</a><hr class="div-menu">
+                            <a href"#" class="menu-toggle-item">Inscribe tu empresa</a><hr class="div-menu">
+                            <a href"#" class="menu-toggle-item">Contactar administrador</a><hr class="div-menu">
+                            <a href"#" class="menu-toggle-item">Cerrar sesión</a>
+                        </section>
+                    </div>
+                </div>
+            </nav>    
+        </header>
+        <hr class="line-page-header">
+        <div class="slideshow-container">
+            <div class="mySlides fadeSlide">
+                <img src="assets/img-1.jpeg" style="width:100%; height: 400px;">
+            </div>
+            <div class="mySlides fadeSlide">
+                <img src="assets/img-2.jpeg" style="width:100%; height: 400px;">
+            </div>
+            <div class="mySlides fadeSlide">
+                <img src="assets/img-3.jpeg" style="width:100%; height: 400px;">
+            </div>
+        </div>
+        <br>
+        <div style="position: relative; text-align: center; top: -40px;">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <section class="second-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="http://via.placeholder.com/250x250" class="second-block-img">
+                        <p class="second-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="http://via.placeholder.com/250x250" class="second-block-img">
+                        <p class="second-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="http://via.placeholder.com/250x250" class="second-block-img">
+                        <p class="second-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third-block">
+            <img src="http://via.placeholder.com/1280x400" width="100%;">
+            <div class="third-block-info">
+                <a class="btn btn-default btn-lg third-block-button" href="#" role="button">Contáctanos</a>
+            </div>
+        </section>
+        <section class="fourth-block">
+            <img src="http://via.placeholder.com/1280x840" width="100%;" height="840">
+        </section>
+        <footer class="page-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <section class="col-xs-12 col-md-6">
+                        <section class="footer-left-info">
+                            <h1>Company name</h1><br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p><br>
+                            <a href="#">Terminos y condiciones</a>
+                            <a href="#" style="float: right;">Política de privacidad</a>
+                        </section>
+                    </section>
+                    <section class="col-xs-12 col-md-6">
+                        <section class="footer-left-info">
+                            <h4>Contáctenos</h4>
+                            <blockquote>
+                                <p>Dirección: lorem ipsum</p>
+                                <p>Teléfono: 555-5-5-555</p>
+                                <p>Correo: example@example.com</p>
+                                <p>Bogotá - Colombia</p>
+                            </blockquote>
+                            <section class="page-social-links">
+                                <ul class="list-social-links">
+                                    <li><img src="assets/facebook-logo-button.png"></li>
+                                    <li><img src="assets/twitter-logo-button.png"></li>
+                                    <li><img src="assets/google-plus.png"></li>
+                                </ul>
+                            </section>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js/functions.js"></script>
+</html>
